@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  celltower:
+    image: celltower:latest
+    container_name: celltower
+    volumes:
+      - .:/src
+    ports:
+      - 5000:5000
+    expose:
+      - 5000

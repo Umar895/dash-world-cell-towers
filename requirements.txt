@@ -1,0 +1,12 @@
+dash
+datashader
+dask
+distributed
+numpy
+pandas
+pyproj
+python-snappy
+fastparquet
+requests
+fsspec
+gunicorn
